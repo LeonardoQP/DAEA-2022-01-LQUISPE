@@ -119,5 +119,11 @@ namespace Lab03
             frmUsuarios usuarios = new frmUsuarios(conn);
             usuarios.Show();
         }
+
+        private void btnPersonas_Click(object sender, EventArgs e)
+        {
+            frmLogin login = new frmLogin(conn);
+            login.Show();
+        }
     }
 }
